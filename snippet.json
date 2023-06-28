@@ -1,5 +1,4 @@
 {
-
   "Ionic React Page": {
     "prefix": "ionic-react-page",
     "body": [
@@ -22,9 +21,7 @@
       "          <IonButtons slot='start'>",
       "            <IonBackButton color='primary' defaultHref='/' />",
       "          </IonButtons>",
-      "          <IonButtons slot='end'>",
       "            <IonTitle>${TM_DIRECTORY/.*\\/(.*)$/$1/g}</IonTitle>",
-      "          </IonButtons>",
       "        </IonToolbar>",
       "      </IonHeader>",
       "      <IonContent className='ion-padding'></IonContent>",

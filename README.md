@@ -7,7 +7,7 @@ This repository contains a custom VS Code snippet collection
 Follow these steps:
 
 1. Open Visual Studio Code.
-2. On Windows **File > Preferences > Configure User Snippets > New Global Snippets** 
+2. On Windows **File > Preferences > Configure User Snippets > New Global Snippets**
 3. On MacOS **(Shift+Cmd+P)**.
 4. Paste the JSON file
 
@@ -39,9 +39,7 @@ Follow these steps:
       "          <IonButtons slot='start'>",
       "            <IonBackButton color='primary' defaultHref='/' />",
       "          </IonButtons>",
-      "          <IonButtons slot='end'>",
       "            <IonTitle>${TM_DIRECTORY/.*\\/(.*)$/$1/g}</IonTitle>",
-      "          </IonButtons>",
       "        </IonToolbar>",
       "      </IonHeader>",
       "      <IonContent className='ion-padding'></IonContent>",
@@ -60,7 +58,7 @@ Follow these steps:
 
 ```json
 {
-"Typescript React Function Component": {
+  "Typescript React Function Component": {
     "prefix": "fc",
     "body": [
       "import { FC } from 'react'",
@@ -77,7 +75,5 @@ Follow these steps:
     ],
     "description": "Typescript React Function Component"
   }
-  }
-  ```
-
-
+}
+```
