@@ -7,7 +7,7 @@ This repository contains a custom VS Code snippet collection
 Follow these steps:
 
 1. Open Visual Studio Code.
-2. On Windows **File > Preferences > Configure User Snippets > New Global Snippets ** 
+2. On Windows **File > Preferences > Configure User Snippets > New Global Snippets** 
 3. On MacOS **(Shift+Cmd+P)**.
 4. Paste the JSON file
 
