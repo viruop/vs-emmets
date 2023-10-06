@@ -77,3 +77,4 @@ Follow these steps:
   }
 }
 ```
+Check [VSCode Docs](https://code.visualstudio.com/docs/editor/userdefinedsnippets) for more.
