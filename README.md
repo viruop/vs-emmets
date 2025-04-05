@@ -80,7 +80,7 @@ Follow these steps:
       "      </IonHeader>",
       "      <IonContent fullscreen className=\"ion-padding\">",
       "        <PageTitleCaption",
-      "          title={\"${TM_FILENAME_BASE}\"}",
+      "          title={\"${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}\"}",
       "          caption={",
       "            \"${1:View or update your details, set transaction limits, change your PIN and more}\"",
       "          }",
